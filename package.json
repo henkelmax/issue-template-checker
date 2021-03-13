@@ -1,0 +1,20 @@
+{
+  "name": "github-issue-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A bot that closes unlabeled issues",
+  "author": "Max Henkel <mh@maxhenkel.de>",
+  "homepage": "https://github.com/henkelmax/github-issue-bot",
+  "scripts": {
+    "start": "probot run ./index.js"
+  },
+  "dependencies": {
+    "probot": "^11.0.1"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "devDependencies": {
+    "smee-client": "^1.2.2"
+  }
+}
