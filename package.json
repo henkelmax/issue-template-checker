@@ -9,12 +9,7 @@
     "start": "probot run ./index.js"
   },
   "dependencies": {
-    "probot": "^12.1.0"
-  },
-  "engines": {
-    "node": ">= 10.13.0"
-  },
-  "devDependencies": {
-    "smee-client": "^1.2.2"
+    "dotenv": "^16.0.3",
+    "probot": "^12.2.8"
   }
 }

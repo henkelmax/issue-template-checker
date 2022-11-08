@@ -1,4 +1,6 @@
 //@ts-check
+require('dotenv').config();
+
 module.exports = (app) => {
   app.log.info('Bot started');
 
